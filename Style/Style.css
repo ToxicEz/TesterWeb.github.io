@@ -11,15 +11,6 @@ html {
     box-sizing: border-box;
 }
 
-@media all and (max-width: 350px) {
-    /* For mobile phones: */
-    .img-1,
-    .topnav,
-    .content {
-        width: 100%;
-    }
-}
-
 
 /* Create a Parallax Effect */
 
