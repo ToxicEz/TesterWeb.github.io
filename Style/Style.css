@@ -11,6 +11,15 @@ html {
     box-sizing: border-box;
 }
 
+@media all and (max-width: 350px) {
+    /* For mobile phones: */
+    .img-1,
+    .topnav,
+    .content {
+        width: 100%;
+    }
+}
+
 
 /* Create a Parallax Effect */
 
@@ -68,17 +77,18 @@ html {
     text-align: center;
     padding: 250px;
     height: 200px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(209, 209, 209);
+    font-size: 30px;
 }
 
 .content2 {
-    align-self: center;
-    border-style: solid;
-    border-color: white;
+    margin-top: -100px;
 }
 
-.content2:hover {
-    cursor: pointer;
-    background-color: white;
+.content2 p {
+    color: #777;
+    margin: -20px;
 }
 
 
