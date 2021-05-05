@@ -1,0 +1,90 @@
+/*style sheet*/
+
+body,
+html {
+    height: 100%;
+    color: #777;
+    line-height: 1.8;
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+
+/* Create a Parallax Effect */
+
+.img-1 {
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.img-1 {
+    background-image: url("https://wallpaperaccess.com/full/2109.jpg");
+    opacity: 0.75;
+    height: 60%;
+}
+
+.topnav {
+    overflow: hidden;
+    background-color: #333;
+}
+
+
+/* Style the topnav links */
+
+.topnav p {
+    float: right;
+    display: block;
+    color: #c9c9c9;
+    text-align: center;
+    padding: 5px 20px;
+    text-decoration: none;
+}
+
+.topnav a {
+    float: right;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 20px 10px;
+    text-decoration: none;
+}
+
+
+/* Change color on hover */
+
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+
+/* Style the content */
+
+.content {
+    text-align: center;
+    padding: 250px;
+    height: 200px;
+}
+
+.content2 {
+    align-self: center;
+    border-style: solid;
+    border-color: white;
+}
+
+.content2:hover {
+    cursor: pointer;
+    background-color: white;
+}
+
+
+/* Style the footer */
+
+.footer {
+    background-color: #f1f1f1;
+    padding: 10px;
+}
