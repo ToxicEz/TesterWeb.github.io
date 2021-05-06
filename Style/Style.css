@@ -93,6 +93,8 @@ html {
     color: rgb(80, 80, 80);
 }
 
+
+/*
 .grid-container {
     display: grid;
     grid-template-columns: auto auto auto;
@@ -111,4 +113,8 @@ html {
     font-size: 30px;
     text-align: left;
     font-family: 'Prompt', sans-serif;
+}*/
+
+.Aboutme1 {
+    padding-left: 10%;
 }
